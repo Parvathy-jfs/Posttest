@@ -1,0 +1,52 @@
+<!--Account Form-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Account Form</title>
+</head>
+<body>
+	<form action="/Posttest3-11Jan2020/accountform" method="POST">
+
+		
+		<br>
+		<br> First Name<span style="color: red;"> * </span>: <input
+			type="text" placeholder="Enter your first name" name="firstname">
+
+		<br>
+		<br> Last Name<span style="color: red;"> * </span>: <input
+			type="text" placeholder="Enter your last name" name="lastname">
+		<br><br>
+
+
+		City<span style="color: red;"> * </span> <select name="city">:
+			<option value="Kochi">Kochi</option>
+			<option value="Hyderabad">Hyderabad</option>
+			<option value="Bengaluru">Bengaluru</option>
+			<option value="Mumbai">Mumbai</option>
+			<option value="Kolkata">Kolkata</option>
+		</select> <br><br> 
+		Gender<span style="color: red;">*</span> : 
+		<input type="radio" name="gender" value="male"> Male
+		<input type="radio" name="gender" value="female"> Female
+		<input type="radio" name="gender" value="other"> Other
+		<br><br> 
+	
+		<p style="font: small-caption" style="font: small-caption;">
+			Terms and Conditions apply. 
+			<br>
+			<input type="checkbox" name="agree" value="I agree"> I agree 
+			<br> 
+			<input type="checkbox" name="disagree" value="I disagree"> I disagree
+			<br><br>
+		</p>
+ 
+		<!--Create Account-->
+		
+		<input type="submit" value="Create Account"
+			style="background-color: rgb(69, 145, 73);">
+	</form>
+</body>
+</html>
